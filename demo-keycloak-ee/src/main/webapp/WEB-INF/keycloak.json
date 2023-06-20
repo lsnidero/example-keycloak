@@ -1,0 +1,11 @@
+{
+    "realm": "spid",
+    "auth-server-url": "http://spidsp:8082/auth",
+    "ssl-required": "external",
+    "resource": "spid",
+    "credentials": {
+        "secret": "MoqB7e2rmCQIw1UNZ4ObqZLuq5viBcPJ"
+    },
+    "use-resource-role-mappings": true,
+    "confidential-port": 0
+}
