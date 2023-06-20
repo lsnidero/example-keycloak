@@ -23,5 +23,5 @@ This command fires up an application which exposes the following links:
   - [/standard-role](http://localhost:8080/standard-role)
   - [/logout](http://localhost:8080/logout)
 
-For further informations refer to the main [README](../README.md)
+For further information refer to the main [README](../README.md)
 

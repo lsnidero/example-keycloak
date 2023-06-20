@@ -24,5 +24,5 @@ This command fires up an application at the context `/demo-keycloak` which expos
   - [/demo-keycloak/standard-role](http://localhost:8080/demo-keycloak/standard-role)
   - [/demo-keycloak/logout](http://localhost:8080/demo-keycloak/logout)
 
-For further informations refer to the main [README](../README.md)
+For further information refer to the main [README](../README.md)
 

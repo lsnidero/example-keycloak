@@ -5,7 +5,7 @@ The application exposes the following endpoints:
 
  - `/` the home page, no restrictions
  - `/restricted` and `/logout` accessible only for authenticated users
- - `/standard-role` accessibile only for an authenticated user with a role named `standard-role`
+ - `/standard-role` accessible only for an authenticated user with a role named `standard-role`
 
 The login form used is the Keycloaks's default one.
 
@@ -41,15 +41,15 @@ In order to make your first login you need this minimal configuration (from the 
  - re-enter in the user detail just created and go to the "Role Mappings" tab where you need to select, from the "Client Roles" drop down box, the `standard-role` defined for the Keycloak client created few steps ago.
  - create another user without assigning the `standard-role` to it.
 
-If you already have configured a user federation mechanism (such as LDAP), you can skip the user creation phase (except for the custom role assignement).
+If you already have configured a user federation mechanism (such as LDAP), you can skip the user creation phase (except for the custom role assignment).
 
-**Please note:** This configuration is not suitable for a production environement!
+**Please note:** This configuration is not suitable for a production environnement!
 
 ### Application configuration
 
-In order to run this application you need to know the following  informations:
+In order to run this application you need to know the following  information:
 
- - auth server url for the keycloak installation; something with this format: `http(s)://keycloak.domain.com:port/auth`
+ - auth server url for the Keycloak installation; something with this format: `http(s)://keycloak.domain.com:port/auth`
  - name of the Keycloak Realm
  - Keycloak client name
  - Keycloak client secret
@@ -59,7 +59,7 @@ In order to run this application you need to know the following  informations:
 In order to run and test the application refer to these documents:
 
  - [Readme Spring Boot](./demo-keycloak-sb/README.md)
- - [Readme Java EE](./demo-keycloak-sb/README.md)
+ - [Readme Java EE](./demo-keycloak-ee/README.md)
 
 When you will try to follow the URL provided by the web applications the expected behavior is this:
 
@@ -70,7 +70,7 @@ When you will try to follow the URL provided by the web applications the expecte
 ## Keycloak theming
 
 Almost every aspect of the Keycloak UI can be customized. In order to have an idea of what could be customized you can follow the link to the [main theme](https://github.com/keycloak/keycloak/tree/18.0.2/themes/src/main/resources/theme/keycloak) of the project.
-Is possibile to add more themes to the Keylcoak installation just addind a folder inside the `themes` folder in the Keycloak installation.
-After a reload of the server you can link the new theme to the realm directly from the web ui (_Realm Settings > Themes)
+Is possible to add more themes to the Keycloak installation just adding a folder inside the `themes` folder.
+After a reload of the server you can link the new theme to the realm directly from the web ui (_Realm Settings_ > _Themes_)
 
 
